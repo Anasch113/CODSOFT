@@ -1,0 +1,217 @@
+.main-portal-container{
+   background-color: #FFF;
+    height: inherit;
+    display: flex;
+
+ justify-content: space-evenly;
+flex-direction: column;
+gap: 85px;
+align-items: center;
+    
+}
+.boxes-heading{
+    position: relative;
+    /* top: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.line{
+    width: 142px;
+    background-color: #2c2b6f;
+    height: 3px;
+}
+.line-text{
+    font-size: 20px;
+    color: #2c2b6f;
+}
+.upper-container{
+    height: 300px;
+    width: 700px;
+   
+    border-radius: 10px;
+    top: 30px;
+    background: #FC466B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#bbb{
+color: #FFF;
+font-size: 25px;
+
+font-weight: 700;
+
+
+
+}
+#hhh{
+    color: #FFF;
+    
+    font-size: 18px;
+    font-weight: 800;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.crud-box h5{
+    font-size: 12px;
+}
+#as-btns1{
+width: 190px;
+}
+#as-btns2{
+    width: 190px;
+}
+.m--main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(220, 10%, 88%);
+    background-color: hsl(216, 20%, 97%);
+   height: 100%;
+   width: 100%;
+   gap: 21px;
+   align-items: center;
+   
+   flex-wrap: wrap;
+   justify-content: space-around;
+   
+
+}
+.st-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.crud-boxes{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.crud-box{
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    /* background: linear-gradient(to bottom, #2c2b6f 50%, #fff 50%); */
+
+   background-color: #fff;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+width: 800px;
+position: relative;
+  
+height: 50px;
+border-radius: 10px;
+gap: 25px;
+justify-content: space-evenly;
+align-items: center;
+
+    
+
+}
+
+#crud-span{
+   
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+@media(max-width:950px){
+   
+    .main-portal-container{
+        overflow-x: hidden;
+    }
+.add-article-container{
+    width: 750px;
+    
+}
+}
+@media(max-width:780px){
+   .upper-container{
+        width: 600px;
+    }
+    .crud-box{
+width: 500px;
+    }
+    }
+    @media(max-width:656px){
+       .upper-container{
+            width: 500px;
+        }
+        }
+
+        @media(max-width:529px){
+           .upper-container{
+                width: 480px;
+            }
+            .crud-box{
+                width: 450px;
+            }
+            
+          
+
+            }
+            @media(max-width:488px){
+                .upper-container{
+                     width: 450px;
+                     flex-direction: column;
+                     
+                 }
+                 .crud-box{
+                     width: 450px;
+                     display: flex;
+                     flex-wrap: wrap;
+                     height: 100px;
+                 }
+                 
+              
+     #hhh{
+font-size: 15px;
+     }
+     #bbb{
+        font-size: 20px;
+     }
+     
+            }
+            @media(max-width:451px){
+               .upper-container{
+                    width: 390px;
+                }
+                .crud-box{
+                    width: 390px;
+                    height: 100px;
+                 }
+              }
+              @media(max-width:395px){
+                .upper-container{
+                     width: 345px;
+                 }
+                 .crud-box{
+                    width: 330px;
+                    height: 100px;
+                 }
+               }
+               @media(max-width:367px){
+                .upper-container{
+                     width: 335px;
+                 }
+                 .crud-box{
+                    width: 330px;
+                    height: 100px;
+                 }
+               }

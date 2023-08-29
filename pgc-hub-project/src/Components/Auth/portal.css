@@ -1,0 +1,175 @@
+
+.portal-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.portal-form{
+height: 400px;
+width:350px;
+background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+border-radius: 10px;
+display: flex;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+
+justify-content: space-evenly;
+align-items: center;
+flex-direction: column;
+
+
+}
+#ntph{
+    color: #24243e;
+    font-size: 12px;
+    font-weight: 700;
+   
+}
+#sin{
+    font-size: 15px;
+    color: #24243e;
+    font-weight: 900;
+}
+#sin:hover{
+    text-decoration: underline;
+}
+.end-sub-txt{
+    color: #C13E31;
+}
+#porh{
+    width: 543px;
+    font-size: 65px;
+    font-weight: 900;
+}
+.portal-heading{
+    font-size: 30px;
+    font-weight: bold;
+    width: 400px;
+    color: #C9D6FF;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.portal-heading h1{
+    font-weight: 900;
+    font-size: 30px;
+    font-weight: bold;
+    width: 400px;
+    color: #C9D6FF;
+}
+.single-input{
+display: flex;
+flex-direction: column;
+gap: 8px;
+
+
+}
+.single-input label{
+    color: #C13E31;
+   font-size: 20px;
+   font-weight: 800;
+}
+.single-input input{
+  background-color: #e5f2ff;
+  background-color: #fff;
+    width: 295px;
+    border-radius: 10px;
+    border: 1px solid #d7d3ff;
+    height: 50px;
+    text-align: center;
+
+}
+.button button{
+   background-color: #24243e;
+   width: 295px;
+    height: 40px;
+   border-radius: 10px;
+   border: #fff;
+   color: white;
+cursor: pointer;
+position: relative;
+
+
+}
+.portal-form-heading span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0f0c29;
+}
+.button button:hover{
+   background-color: #38385b;
+ 
+  
+    
+    
+}
+@media(max-width:880px){
+    #porh{
+        width: 470px;
+        font-size: 40px;
+        font-weight: 900;
+    }
+}
+@media (max-width:769px){
+    .portal-container{
+        overflow-x: hidden;
+display: flex;
+flex-direction: column;
+    }
+    .portal-heading{
+        font-size: 30px;
+        font-weight: bold;
+        width: 400px;
+        color: #C9D6FF;
+    }
+    #porh1{
+        color:#C9D6FF ;
+    }
+    
+    
+}
+@media (max-width:415px){
+    .portal-form{
+        width: 300px;
+    }
+    #porh{
+        width: 543px;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .portal-heading{
+        font-size: 30px;
+        font-weight: bold;
+        width: 250px;
+        color: #C9D6FF;
+
+    }
+}
+@media (max-width:1080px){
+    #porh1{
+        color:#C9D6FF ;
+    }
+}
+
+@media (max-width:400px){
+    #porh{
+        font-size: 35px;
+        width: 300px;
+    }
+    .single-input input{
+        width: 245px;
+    }
+    .button button{
+        width: 245px;
+    }
+   
+}

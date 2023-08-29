@@ -1,0 +1,112 @@
+.add-article-body{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.add-article-container{
+    height: 550px;
+   border-radius: 10px;
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.form-group .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#file-input{
+    
+    height: 40px;
+    position: relative;
+   
+    
+    text-align: center;
+}
+#file-upload-button{
+    text-align: center;
+}
+.form-control{
+    background-color: #24243e;
+    width: 150px;
+    height: 40px;
+   border-radius: 10px;
+   border: #fff;
+   color: white;
+  cursor: pointer;
+}
+/* .form-control:hover{
+border: 1px solid #fff;
+} */
+.form-control button:hover{
+    background-color: #38385b;
+}
+#ad-btn:hover{
+    background-color: #38385b;
+}
+.form-control[type="file"] {
+    /* Customize the appearance of the file input button */
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+.form-group input{
+    width: 400px;
+    background-color: #fff;
+}
+.add-btn{
+    text-align: center;
+}
+.single-input label{
+    color: #24243e;
+}
+
+@media(max-width:950px){
+    .add-article-body{
+        overflow-x: hidden;
+    }
+.add-article-container{
+    width: 750px;
+    
+}
+}
+@media(max-width:780px){
+    .add-article-container{
+        width: 600px;
+    }
+    }
+    @media(max-width:656px){
+        .add-article-container{
+            width: 500px;
+        }
+        }
+
+        @media(max-width:512px){
+            .add-article-container{
+                width: 400px;
+            }
+            .form-group input{
+                width: 300px;
+                background-color: #fff;
+            }
+
+            }
+            @media(max-width:411px){
+                .add-article-container{
+                    width: 343px;
+                }
+              }

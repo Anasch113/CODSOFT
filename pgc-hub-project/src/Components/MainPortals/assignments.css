@@ -1,0 +1,265 @@
+.as-body{
+ 
+
+height: auto;
+}
+.main-as-container{
+
+/* background-color: #C13E31; */
+background-color: #fff;
+height: 380px;
+/* background: url("../../assets/Subtract.png");
+background-repeat: no-repeat;
+background-size: 600px;
+background-position: 100px 100px; */
+
+font-family: 'Prompt', sans-serif;
+overflow-y: hidden;
+
+
+
+}
+.main-as-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 80px;
+}
+.main-as-container h1{
+  color:#C13E31;
+  font-size: 48px;
+  width: 600px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 800;
+  text-align: center;
+
+
+}
+.main-as-heading span{
+  color: #24243e;
+  font-size: 15px;
+}
+#warn{
+  font-size: 15px;
+}
+#rules{
+  font-size: 20px;
+  font-size: 500;
+}
+.single-input input{
+  color: #24243e;
+}
+.boxes-headingss{
+  display: flex;
+ align-items: center;
+  justify-content: center;
+}
+.boxes-headingss h5{
+  font-size: 21px;
+  position: relative;
+  top: 70px;
+
+  
+}
+.react-icons{
+  font-size: 20px;
+ position: relative;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ gap: 31px;
+ font-size: 20px;
+
+ 
+}
+.boxes-headingss .line{
+  position: relative;
+  top: 48px;
+  left: -166px;
+}
+
+.mc{
+  font-weight: bold;
+ 
+}
+.svg-a{
+  position: relative;
+  top: 160px;
+}
+#note{
+  color: grey;
+  font-size: 20px;
+}
+#as-btn{
+  background-color: #24243e;
+  width: 150px;
+  height: 40px;
+ border-radius: 10px;
+ border: #fff;
+ color: white;
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.bg-svg{
+  height: 100px;
+}
+
+.submit-container-1{
+ 
+
+
+
+  
+  width: 665px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+  
+flex-direction: row;
+height: 130px;
+  justify-content: space-around;
+  
+}
+.root-container{
+  top: 135px;
+  flex-direction: row;
+  background-color: hsl(216, 20%, 97%);
+ gap: 12px;
+  position: relative;
+  /* margin: 0px 0px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+ height: 100%;
+}
+.down-btn{
+  width: 100px;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+gap: 5px;
+  background-color: #C13E31;
+  background-color: #24243e;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.buttonsss:hover{
+  background-color: #f16c60;
+}
+.down-btn:hover{
+  background-color: #38385b;
+}
+.row{
+  width: 500px;
+ 
+  display: flex;
+  align-items: center;
+  
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main-submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  /* border: 2px solid blue; */
+  text-align: center;
+flex-direction: column;
+}
+.main-submit img{
+  width: 100px;
+}
+
+.Submit-details{
+  display: flex;
+  flex-direction: column;
+ 
+  
+}
+.Submit-details span{
+  font-size: 15px;
+ 
+}
+.row h5{
+  font-weight: 800;
+}
+#date-as{
+  font-weight: 700;
+  color: #24243e;
+}
+.sp-bl{
+  color: #24243e;
+  font-size: 17px;
+  font-weight: 500;
+  width: auto;
+}
+.buttonsss{
+  width: 100px;
+  border-radius: 5px;
+  height: 30px;
+  gap: 5px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+border: 1px solid #C13E31;
+  background-color: #C13E31;
+  /* background-color: #24243e; */
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width:1000px){
+  .as-body{
+    overflow-x: hidden;
+  }
+}
+@media(max-width:558px){
+  .main-as-container h1{
+    font-size: 30px;
+  }
+  .main-as-heading{
+    overflow: hidden;
+  }
+  .submit-container-1{
+    width: 400px;
+  }
+}
+@media(max-width:411px){
+  .main-as-container h1{
+    font-size: 30px;
+    overflow-x: hidden;
+  }
+  .submit-container-1{
+    width: 350px;
+    height: 150px;
+  }
+  .Submit-details{
+   flex-wrap: wrap;
+  }
+  .Submit-details span{
+    font-size: 11px;
+  }
+
+
+  .main-as-heading{
+    overflow: hidden;
+  }
+  .buttonsss{
+    width: 80px;
+  }
+  .down-btn{
+    width: 80px;
+  }
+}

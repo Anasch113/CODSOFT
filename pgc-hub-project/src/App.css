@@ -1,0 +1,8 @@
+:root{
+  --main-color: radial-gradient(50% 50.00% at 50% 50.00%, #EAEAFE 0%, rgba(221, 246, 243, 0.00) 100%);
+
+}
+
+body{
+  background-color: var(--main-color);
+}

@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#label{
+    color: #C13E31;
+   font-size: 20px;
+   font-weight: 800;
+}
+#signup-portal{
+    background: linear-gradient(to right,   hsl(216, 20%, 97%) 50%, #2C2B6F 50%);
+    background:    hsl(216, 20%, 97%) ;
+}
+#portal-form{
+    height: 500px;
+    width: 400px;
+
+ 
+   
+}
+#label{
+   color: #2C2B6F;
+   color: #0f0c29;
+   
+ 
+  
+}
+.pass-lab{
+    color: #2C2B6F;
+}
+
+#porh1{
+    font-size: 55px;
+    color: #2C2B6F;
+    font-weight: bold;
+}
+@media(max-width:500px){
+    #signup-portal{
+        background:    hsl(216, 20%, 97%) ;
+    }
+    #porh1{
+        font-size: 40px;
+        color: #2C2B6F;
+        text-align: center;
+    }
+    #portal-form{
+        width: 320px;
+        position: relative;
+        top: 10px;
+    }
+}
+@media(max-width:740px){
+    #signup-portal{
+        background:    hsl(216, 20%, 97%) ;
+    }
+    #porh1{
+        font-size: 33px;
+        color: #2C2B6F;
+        text-align: center;
+    }
+}
